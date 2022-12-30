@@ -50,7 +50,7 @@ class _otpscreenState extends State<otpscreen> {
                 child:
                     Row(mainAxisAlignment: MainAxisAlignment.center, children: [
                   OtpTextField(
-                    numberOfFields: 4,
+                    numberOfFields: 5,
                     borderColor: Color(0xFF512DA8),
                     //set to true to show as box or false to show as dash
                     showFieldAsBox: true,
