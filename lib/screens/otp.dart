@@ -52,9 +52,11 @@ class _otpscreenState extends State<otpscreen> {
                   OtpTextField(
                     numberOfFields: 5,
                     borderColor: Color(0xFF512DA8),
-                    //set to true to show as box or false to show as dash
+
+
+
+
                     showFieldAsBox: true,
-                    //runs when a code is typed in
                     onCodeChanged: (String code) {
                     },
                     //runs when every textfield is filled
@@ -79,6 +81,13 @@ class _otpscreenState extends State<otpscreen> {
                 children: [
                   MyButton(
                       btnwidth: size.width * 0.851,
+
+
+
+
+
+
+                      
                       btntextsize: 15,
                       buttontext: 'SUBMIT',
                       textcolor: Colors.black,
